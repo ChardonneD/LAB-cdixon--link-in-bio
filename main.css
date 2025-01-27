@@ -1,0 +1,23 @@
+html, body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.rounded-circle {
+  float: left;
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
+  width: 150px;
+  height: 150px;
+}
+
+.bg-success {
+  --bs-bg-opacity: 3;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
+
+}
